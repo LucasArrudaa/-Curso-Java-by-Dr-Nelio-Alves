@@ -16,7 +16,7 @@ public class cond14 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o salario: ");
         double salario = sc.nextDouble();
-        double imposto = 0.0;
+        double imposto = 0;
 
         if (salario <= 2000.00) {
             System.out.println("Isento");
